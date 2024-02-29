@@ -1,6 +1,6 @@
 // Define audio elements
-var audioRight = new Audio('/images/right.mp3'); 
-var audioWrong = new Audio('/images/wrong.mp3'); 
+var audioRight = new Audio('./images/right.mp3'); 
+var audioWrong = new Audio('./images/wrong.mp3'); 
 
 // Set volume for answer audio
 audioWrong.volume = 0.3; // Adjust volume to 30%
@@ -8,16 +8,16 @@ audioRight.volume = 0.3; // Adjust volume to 30%
 
 // Array of image URLs and options
 var imageOptions = [
-    { imageUrl: "/pokemon/img1.png", option: 'PIKACHU' },
-    { imageUrl: "/pokemon/img2.png", option: 'SQUIRTLE' },
-    { imageUrl: "/pokemon/img3.png", option: 'TOTODILE' },
-    { imageUrl: "/pokemon/img4.png", option: 'BULBUSAUR' },
-    { imageUrl: "/pokemon/img5.png", option: 'JIGGLYPUFF' },
-    { imageUrl: "/pokemon/img6.png", option: 'EEVEE' },
-    { imageUrl: "/pokemon/img7.png", option: 'DRAGONITE' },
-    { imageUrl: "/pokemon/img8.png", option: 'DRAGONIAR' },
-    { imageUrl: "/pokemon/img9.png", option: 'RATICATE' },
-    { imageUrl: "/pokemon/img10.png", option: 'CHARIZARD' }
+    { imageUrl: "./pokemon/img1.png", option: 'PIKACHU' },
+    { imageUrl: "./pokemon/img2.png", option: 'SQUIRTLE' },
+    { imageUrl: "./pokemon/img3.png", option: 'TOTODILE' },
+    { imageUrl: "./pokemon/img4.png", option: 'BULBUSAUR' },
+    { imageUrl: "./pokemon/img5.png", option: 'JIGGLYPUFF' },
+    { imageUrl: "./pokemon/img6.png", option: 'EEVEE' },
+    { imageUrl: "./pokemon/img7.png", option: 'DRAGONITE' },
+    { imageUrl: "./pokemon/img8.png", option: 'DRAGONIAR' },
+    { imageUrl: "./pokemon/img9.png", option: 'RATICATE' },
+    { imageUrl: "./pokemon/img10.png", option: 'CHARIZARD' }
 ];
 
 // Function to get a random image option
