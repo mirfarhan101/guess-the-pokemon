@@ -1,0 +1,94 @@
+* {
+  color: white;
+}
+
+.header {
+  font-size: 5vw; /* Relative font size */
+  font-family: sans-serif, Times, serif;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke-width: 0.1em; /* Adjust stroke width */
+  -webkit-text-stroke-color: black;
+  background-image: url(/images/header2.png);
+  background-repeat: initial;
+  margin: 0 auto; /* Center align */
+  padding: 3vh 8vw; /* Relative padding */
+  height: auto; /* Auto height */
+}
+
+.image {
+  height: 40vh; /* Relative height */
+  width: 40vh; /* Relative width */
+  display: flex;
+  padding: 1vh;
+  margin: 0 auto; /* Center align */
+}
+
+#random-image {
+  filter: brightness(0);
+  animation-name: zoom;
+  animation-duration: 2s;
+}
+
+.options {
+  margin-top: 3vh; /* Relative margin */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto; /* Auto height */
+  margin: 0 8vw; /* Relative margin */
+  
+}
+
+#option {
+  border-radius: 7vh; /* Relative border radius */
+  flex-basis: 40%;
+  margin: 1vh;
+  height: 6vh; /* Relative height */
+  text-align: center;
+  margin-top: 5vh;
+}
+
+#option:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url(/images/pikachu2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  width: 100%;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  background-image: url(/images/pikachu3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: auto; /* Auto height */
+  border-radius: 7vh; /* Relative border radius */
+  border: 0.3vh solid #ffffff;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(255, 132, 0);
+  font-size: 3vw; /* Relative font size */
+  color: white;
+}
+
+@keyframes zoom {
+  from {
+      transform: scale(0.2);
+  }
+}
